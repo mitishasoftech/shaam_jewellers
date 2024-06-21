@@ -1,0 +1,19 @@
+.productsContainer {
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+.productsContent {
+    display: flex;
+    flex-direction: column;
+    /* width: 300px;
+    height: 300px; */
+    margin: 40px 0;
+}
+.productsContent img {
+    width: 300px;
+    height: 300px;
+}

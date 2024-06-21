@@ -1,0 +1,22 @@
+.favouritesContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.favouritesContainer h2 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.thirdrow {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.favouritesImges img {
+    width: 257px;
+    height: 200px;
+}

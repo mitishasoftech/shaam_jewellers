@@ -1,0 +1,32 @@
+.sagaContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    padding: 63px;
+    gap: 80px;
+    width: 100%;
+}
+.sagaimg img{
+    height: 600px;
+    width: 100%;
+}
+.sagaimg {
+    width: 40%;
+}
+.sagatext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    width: 40%;
+    padding-left: 5%;
+    /* align-items: center; */
+    text-align: justify;
+}
+.sagatext h2 {
+    font-weight: bold;
+}
+.sagatext p {
+    color: rgb(125, 118, 118);
+}

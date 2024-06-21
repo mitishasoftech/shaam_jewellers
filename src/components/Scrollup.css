@@ -1,0 +1,17 @@
+.box{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: rgb(143, 10, 83);
+    cursor: pointer;
+    z-index: +100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box i{
+    color: white;
+    font-size: 20px;
+}
