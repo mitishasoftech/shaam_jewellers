@@ -37,7 +37,7 @@ const Navbar = () => {
                 <li><Link className="dropdown-item" to="/bandb">BRACELETS & BANGLES</Link></li>
                 <li><Link className="dropdown-item" to="/mangalsutra">MANGALSUTRA</Link></li>
                 <li><Link className="dropdown-item" to="/necklace">NECKLACE</Link></li>
-                <li><Link className="dropdown-item" to="#">GEMS</Link></li>
+                {/* <li><Link className="dropdown-item" to="#">GEMS</Link></li> */}
               </ul>
             </li>
             <li className="nav-item">
