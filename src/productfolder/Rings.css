@@ -1,0 +1,20 @@
+.ringsContainer {
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+.ringsContent {
+    display: flex;
+    flex-direction: column;
+    /* width: 300px;
+    height: 300px; */
+    margin: 40px 0;
+    cursor: pointer;
+}
+.ringsContent img {
+    width: 300px;
+    height: 300px;
+}

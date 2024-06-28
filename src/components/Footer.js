@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import Logo from './shashilogo.jpg'
 
 const Footer = () => {
   return (
@@ -18,11 +19,12 @@ const Footer = () => {
   </svg>
   <div className="container">
     <div className="row">
-      <div className="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 section-heading-1">
-        <h2 className="white">Newsletter</h2>
+      <div className="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 section-heading-1 logo">
+        {/* <h2 className="white">Newsletter</h2>
         <p className="white">
           Sunday Open
-        </p>
+        </p> */}
+        <img src={Logo} />
       </div>
     </div>
     {/* NEWSLETTER */}
@@ -49,7 +51,7 @@ const Footer = () => {
     </div>
     {/* Social Icon */}
     <div className="fcopy text-center">
-      2018 All Right Reserved. Created by God
+      2023 All Right Reserved. Created by God
     </div>
   </div>
 </div>

@@ -1,0 +1,28 @@
+.photo img {
+    height: 500px;
+    width: 100%;
+    /* object-fit: cover; */
+}
+.photo {
+    margin: 0px 50px;
+    /* object-fit: contain; */
+}
+.content {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.contentHeading {
+    width: 30%;
+}
+.contentHeading h3 {
+    font-weight: bold;
+    text-align: center;
+}
+.contentContent {
+    width: 60%;
+}
+.contentContent p{
+    color: rgb(125, 118, 118);
+    text-align: justify;
+}

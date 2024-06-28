@@ -143,3 +143,23 @@ input.form-control,input[type=email].form-control{height:55px;line-height:55px;p
 @keyframes rotateIn{0%{-webkit-transform-origin:center;transform-origin:center;-webkit-transform:rotate3d(0,0,1,-200deg);transform:rotate3d(0,0,1,-200deg);opacity:0;}100%{-webkit-transform-origin:center;transform-origin:center;-webkit-transform:none;transform:none;opacity:1;}}
 /*! CSS Used fontfaces */
 @font-face{font-family:'FontAwesome';src:url('http://pierian-design.com/monster/7-solutions/css/fonts/fontawesome-webfont.eot?v=4.7.0');src:url('http://pierian-design.com/monster/7-solutions/css/fonts/fontawesome-webfont.eot#iefix&v=4.7.0') format('embedded-opentype'),url('http://pierian-design.com/monster/7-solutions/css/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('http://pierian-design.com/monster/7-solutions/css/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('http://pierian-design.com/monster/7-solutions/css/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('http://pierian-design.com/monster/7-solutions/css/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal;}
+.logo img {
+    height: 200px;
+    width: 600px;
+}
+
+@media (max-width : 783px) {
+    .logo img {
+        width: 400px;
+        height: 200px;
+    }
+}
+@media (max-width : 453px) {
+    .logo img {
+        width: 200px;
+        height: 100px;
+    }
+}
+.logo img:hover {
+    cursor: pointer;
+}

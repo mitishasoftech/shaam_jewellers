@@ -63,3 +63,7 @@
 .active {
     color: black;
 }
+.header img {
+    height: 70px;
+    width: 250px;
+}
