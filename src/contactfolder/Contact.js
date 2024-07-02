@@ -26,19 +26,18 @@ const Contact = () => {
     <div className='contact'>
       <div className='map'>
       <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.5774808266247!2d76.68044277393936!3d30.702161987112312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fef8c87691c2b%3A0x1e625b93fab0a93a!2sMitisha%20Softech%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1719307849260!5m2!1sen!2sin"
-          style={{ border: 0 }}
-          allowFullScreen=""
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade" 
-      />
+       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27009.921951427856!2d76.31920073476566!3d32.197756499999976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b51a006e9cfd5%3A0xadd7177679f557a1!2sShashi%20jewellers!5e0!3m2!1sen!2sin!4v1719814675493!5m2!1sen!2sin">
+       width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"</iframe>
+    
       </div>
       <div className='contactList'>
       <div className='location'>
-        <h2>Mitisha Softech Pvt Ltd</h2>
-        <p>F426, First Floor, Phase 8B, Industrial Area,</p>
-        <p>Sector 91, Sahibzada Ajit Singh Nagar,</p>
-        <p>Punjab 160055</p>
+        <h2>Shashi jewellers</h2>
+        <p> <img style={{height:
+              "30px"}}src="https://cdn-icons-png.flaticon.com/128/724/724664.png"/>  <span className=' ms-2'>+91 98166-22883</span></p>
+             <p>  <img style={{height:"30px"}}src="https://cdn-icons-png.flaticon.com/128/1865/1865269.png"/>
+            <span className=' ms-2'> Near Santoshi Mata Mandir, Dari, Dharamshala, Gabli Dar, HP</span></p>
+             <p> pin code:-176057</p>
       </div>
       <div className='contactForm'>
                     <h1>Are You Interested ?</h1>

@@ -17,7 +17,7 @@
 }
 .logo {
     color: rgb(221, 106, 169);
-    font-size: 45px;
+    font-size: 39px;
 }
 
 .headingtext {
@@ -48,16 +48,16 @@
     display: block;
 }
 
-@media (max-width : 768px) {
+@media (max-width : 700px) {
     .logo{
-        font-size: 20px;
+        font-size: 10px;
     }
     .header {
         gap: 5px;
         margin-left: 5px;
     }
     .headingtext {
-        font-size: 20px;
+        font-size: 10px;
     }
 }
 .active {
@@ -65,5 +65,7 @@
 }
 .header img {
     height: 70px;
-    width: 250px;
+    width: 200px;
 }
+
+
