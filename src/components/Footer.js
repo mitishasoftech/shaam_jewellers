@@ -32,7 +32,7 @@ const Footer = () => {
       <div className="newsletter-bg">
         <div className="row">
           <div className="col-sm-12 col-md-offset-2 col-md-8">
-            <form action="php/newsletter.php" method="post">
+            {/* <form action="php/newsletter.php" method="post">
               <input
                 id="email_newsletter"
                 className="form-control"
@@ -44,7 +44,7 @@ const Footer = () => {
               <button type="submit" className="btn btn-primary">
                 <span>Subscribe</span>
               </button>
-            </form>
+            </form> */}
           </div>
         </div>
       </div>
